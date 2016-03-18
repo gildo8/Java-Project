@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_51" class="java.beans.XMLDecoder">
+ <object class="presenter.RemoteServerProperties">
+  <void property="IP">
+   <string>localhost</string>
+  </void>
+  <void property="numOfClients">
+   <int>20</int>
+  </void>
+  <void property="portOnWhichServerListens">
+   <int>5400</int>
+  </void>
+  <void property="portServerClients">
+   <int>7000</int>
+  </void>
+  <void property="remoteControlPortListener">
+   <int>3300</int>
+  </void>
+ </object>
+</java>

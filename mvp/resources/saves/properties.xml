@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_51" class="java.beans.XMLDecoder">
+ <object class="dataProject.ClientProperties" id="ClientProperties0">
+  <void class="dataProject.ClientProperties" method="getField">
+   <string>NumberOfClients</string>
+   <void method="set">
+    <object idref="ClientProperties0"/>
+    <int>20</int>
+   </void>
+  </void>
+  <void class="dataProject.ClientProperties" method="getField">
+   <string>ServerIP</string>
+   <void method="set">
+    <object idref="ClientProperties0"/>
+    <string>localhost</string>
+   </void>
+  </void>
+  <void class="dataProject.ClientProperties" method="getField">
+   <string>ServerPort</string>
+   <void method="set">
+    <object idref="ClientProperties0"/>
+    <int>7000</int>
+   </void>
+  </void>
+  <void class="dataProject.ClientProperties" method="getField">
+   <string>Generator</string>
+   <void method="set">
+    <object idref="ClientProperties0"/>
+    <object class="java.lang.Enum" method="valueOf">
+     <class>dataProject.ClientProperties$MazeGenerator</class>
+     <string>RANDOM</string>
+    </object>
+   </void>
+  </void>
+  <void class="dataProject.ClientProperties" method="getField">
+   <string>Ui</string>
+   <void method="set">
+    <object idref="ClientProperties0"/>
+    <object class="java.lang.Enum" method="valueOf">
+     <class>dataProject.ClientProperties$UI</class>
+     <string>GUI</string>
+    </object>
+   </void>
+  </void>
+  <void class="dataProject.ClientProperties" method="getField">
+   <string>Access</string>
+   <void method="set">
+    <object idref="ClientProperties0"/>
+    <object class="java.lang.Enum" method="valueOf">
+     <class>dataProject.ClientProperties$Access</class>
+     <string>REMOTE_SERVER</string>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
